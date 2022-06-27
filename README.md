@@ -14,18 +14,18 @@ In this project we will do the following tasks
 - Infer the causal graph from observational data and then validate the graph
 - Merge machine learning with causal inference
 
-## Data 
+### Data 
 You can extract the data from kaggle or from UCI Machine Learning Repository. 
 - To understand more about the data: (PDF) Breast Cancer Diagnosis and Prognosis Via Linear Programming (researchgate.net)
 
 
-## Skills: 
+### Skills: 
 - Modeling a given problem as a casual graph
 - Statistical Modelling and Inference Extraction
 - Building model pipelines and orchestration
 
 
-## Knowledge:
+### Knowledge:
 - Knowledge about casual graph and statistical learning
 - Hypothesis Formulation and Testing 
 - Statistical Analysis
