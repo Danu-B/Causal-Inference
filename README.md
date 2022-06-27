@@ -15,7 +15,7 @@ In this project we will do the following tasks
 - Merge machine learning with causal inference
 
 ### Data 
-You can extract the data from kaggle or from UCI Machine Learning Repository. 
+https://www.kaggle.com/uciml/breast-cancer-wisconsin-data or https://archive-beta.ics.uci.edu/ml/datasets?name=breast 
 - To understand more about the data: (PDF) Breast Cancer Diagnosis and Prognosis Via Linear Programming (researchgate.net)
 
 
