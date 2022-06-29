@@ -115,7 +115,7 @@ class Breast_Cancer_Exploratory:
             count = df[col].isna().sum()
             df[col] = df[col].fillna(value)
             if type(value) == 'str':
-            print(f"{count} missing values in the column {col} have been replaced by \'{value}\'.")
+                print(f"{count} missing values in the column {col} have been replaced by \'{value}\'.")
             else:
                 print(f"{count} missing values in the column {col} have been replaced by {value}.")
 

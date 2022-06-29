@@ -14,7 +14,7 @@ class Plot:
             a.loc[a['count'] < limit, column] = f'Other {column}s'
         if title == None:
             title=f'Distribution of {column}'
-        fig = px.pie(a, values='count', names=column, title=title, width=800, height=500)
+            fig = px.pie(a, values='count', names=column, title=title, width=800, height=500)
             fig.show()
 
     def plot_hist(df:pd.DataFrame, column:str, color:str='cornflowerblue')->None:
