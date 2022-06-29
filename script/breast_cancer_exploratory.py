@@ -1,7 +1,8 @@
 import numpy as np
 import pandas as pd
 
-Class EDA
+class Breast_Cancer_Exploratory:
+    
     def drop_duplicates(df):
         old = df.shape[0]
         df.drop_duplicates(inplace=True)
