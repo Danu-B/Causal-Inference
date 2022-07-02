@@ -11,6 +11,6 @@ jobs:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           pip install -r requirements.txt
-          cd scripts/
+          cd script/
           python unit_test.py
         
