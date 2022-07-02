@@ -29,14 +29,11 @@ class Plot:
         plt.show()
     
     
-    def plotly_plot_scatter(df, x_col, y_col, marker_size, hover=[]):
-        fig = px.scatter(
-            df,
-            x=x_col,
-            y=y_col,
-            opacity=0.8,
-            hover_data=hover,
-            title=f'{x_col} vs. {y_col}')
-        fig.update_traces(marker_size=marker_size)
-        fig.show()
+    def plot_scatter(df,col1,col2):
+        plt.figure(figsize=(12, 7))
+        sns.scatterplot(data = df, x=col1, y=col2, hue="diagnosis",palette='summer_r')
+        plt.title(f'{col1} vs {col2}', size=16)
+        plt.xticks(fontsize=14)
+        plt.yticks( fontsize=14)
+        plt.show()
     
