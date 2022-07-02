@@ -1,4 +1,4 @@
-name: Pharmaceutical_Sales_prediction
+name: Causal-Inference
 on: [push]
 jobs:
   run:
