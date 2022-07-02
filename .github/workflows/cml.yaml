@@ -1,4 +1,4 @@
-name: Pharmaceutical_Sales_prediction
+name: Causal-Inference
 on: [push]
 jobs:
   run:
@@ -11,6 +11,6 @@ jobs:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           pip install -r requirements.txt
-          cd scripts/
-          python train.py
+          cd script/
+          python unit_test.py
         
